@@ -1,0 +1,22 @@
+{
+  "name": "vmt",
+  "version": "1.0.0",
+  "description": "Controller using VMT OpenVR Driver",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nik Mirza",
+  "license": "ISC",
+  "dependencies": {
+    "euler-to-quaternion": "^0.1.0",
+    "leapjs": "^1.1.1",
+    "osc": "^2.4.3",
+    "vectors": "^0.1.0",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
